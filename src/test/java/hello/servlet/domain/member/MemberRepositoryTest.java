@@ -42,4 +42,15 @@ class MemberRepositoryTest {
         Assertions.assertThat(result.size()).isEqualTo(2);
         Assertions.assertThat(result).contains(member1, member2);
     }
+
+    @Test
+    void test(){
+        int val1 = 100;
+        Long val2 = 200L;
+        String val3 = "300";
+
+        System.out.println(String.valueOf(val1));
+        System.out.println(String.valueOf(val2));
+        System.out.println(Integer.valueOf(val3)+1);
+    }
 }
